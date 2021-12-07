@@ -9,6 +9,7 @@
 
 .white-bg {
     background-color: var(--white);
+    color: var(--primary-color);
 }
 
 .main-content {
