@@ -1,9 +1,11 @@
 .main-bg {
     background-image: url(/assets/img/mainbg.svg);
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     color: var(--white);
 }
+
+
 
 .white-bg {
     background-color: var(--white);
@@ -17,4 +19,8 @@
 
 .section {
     min-height: 100vh;
+}
+
+.menu-spacing {
+    height: 6.5rem;
 }
