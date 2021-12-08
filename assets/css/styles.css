@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: var(--gap);
-    height: 100vh;
+    min-height: 100vh;
     
 }
 
@@ -27,40 +27,12 @@
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .white-content p {
     font-size: 2.5rem;
 }
 
-.records-content {
-    height: 100vh;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-}
 
-.sub-records {
-    color: var(--lakers-gold);
-    margin-top: 1px;
-    font-size: 2.5rem;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-
-}
-
-.grid h2 {
-    color: var(--lakers-gold);
-    font-size: 4rem;
-    margin-top: 10rem;
-}
-
-.grid article p {
-    margin-top: 1px;
-}
 
