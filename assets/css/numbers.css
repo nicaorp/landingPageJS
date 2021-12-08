@@ -1,0 +1,45 @@
+.white-content {
+    max-width: 64rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: start;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+
+.responsive-table{
+    overflow: auto;
+}
+
+
+.numbers-content {
+    margin-top: 6rem;
+}
+
+table {
+
+margin: 0 auto;
+margin-top: 1rem;
+width: 100%;
+}
+
+table td, table th {
+    border: 0.1rem solid var(--primary-color);
+    text-align: center;
+    padding: 0.5rem;
+}
+
+table caption {
+    text-align: left;
+}
+
+thead th {
+    background-color: var(--lakers-gold);
+}
+
+td:nth-child(2n) {
+    color: var(--white);
+    background-color: var(--lakers-purple);
+}
