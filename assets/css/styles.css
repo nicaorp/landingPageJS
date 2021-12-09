@@ -34,6 +34,7 @@
     font-size: 2.3rem;
 }
 
+
 .contact-form {
     grid-column: span 2;
 }
@@ -129,6 +130,10 @@ box-shadow: 2px 2px 5px var(--lakers-gold);
 
     @media (max-width: 800px) {       
   
+        .main-content .white-content h2 {
+            font-size: 5rem;
+        }
+
         .menu-spacing {
             display: none;
         }
@@ -152,12 +157,14 @@ box-shadow: 2px 2px 5px var(--lakers-gold);
         body .grid{
         grid-template-columns: 1fr;
         max-height: 100%;
-        grid-template-rows: repeat(6, 15%);  
+        grid-template-rows: repeat(6, 18%);  
     }
         
         section .grid h2 {
         margin-top: 1rem;
         }
+
+        .
     }
 
     @media (max-width: 800px) {
