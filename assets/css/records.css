@@ -1,9 +1,9 @@
 .records-content {
-    height: 100vh;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center; 
+    min-height: 100vh;
 }
 
 .sub-records {
@@ -20,8 +20,8 @@
 
 .grid h2 {
     color: var(--lakers-gold);
-    font-size: 4rem;
-    margin-top: 10rem;
+    font-size: 2rem;
+
 }
 
 .grid article p {
