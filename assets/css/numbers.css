@@ -15,7 +15,7 @@
 
 
 .numbers-content {
-    margin-top: 6rem;
+    margin-top: 1rem;
 }
 
 table {
@@ -28,7 +28,7 @@ width: 100%;
 table td, table th {
     border: 0.1rem solid var(--primary-color);
     text-align: center;
-    padding: 0.5rem;
+    padding: 0.2rem;
 }
 
 table caption {

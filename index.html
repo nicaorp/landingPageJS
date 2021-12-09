@@ -16,11 +16,12 @@
     <link rel="stylesheet" href="/assets/css/records.css">
     <link rel="stylesheet" href="/assets/css/gallery.css">
     <link rel="stylesheet" href="/assets/css/numbers.css">
+    <link rel="stylesheet" href="/assets/css/form.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
 </head>
 
-<body class="main-bg">
+<body >
     <aside class="menu white-bg">
         <div class="main-content menu-content">
             <h1><a href="#">KB24</a></h1>
@@ -31,6 +32,7 @@
                     <li><a href="#records">Records</a></li>
                     <li><a href="#gallery">Gallery</a></li>
                     <li><a href="#numbers">Numbers</a></li>
+                    <li><a href="#contact">Contact</a></li>
 
                 </ul>
             </nav>
@@ -81,7 +83,7 @@
 
 
     <section id="records" class="records main-bg section">
-        <div class="records-content main-content">
+        <div class="main-content records-content">
             <h2>Records</h2>
             <p class="sub-records">Kobe Bryant has a long and impressive list of career accolades and accomplishments.
             </p>
@@ -141,23 +143,23 @@
 
             <div class="grid-gallery">
                 <div class="gallery-img">
-                    <img src="/assets/img/kb/kb4 cropped.jpg" alt="Kobe showing his jersey" />
+                    <img src="/assets/img/kb/kb4 cropped.jpg" alt="Kobe after be drafted by Lakers" />
                 </div>
 
                 <div class="gallery-img">
-                    <img src="/assets/img/kb/kb6 cropped.jpg" alt="Kobe with Ronaldinho Gaúcho" />
-                </div>
-                <div class="gallery-img">
-                    <img src="/assets/img/kb/kb5 cropped.jpg" alt="Kobe after win game" />
-                </div>
-                <div class="gallery-img">
-                    <img src="/assets/img/kb/kb1 cropped.jpg" alt="Kobe after be drafted by Lakers" />
+                    <img src="/assets/img/kb/kb6 cropped.jpg" alt="Kobe posing" />
                 </div>
                 <div class="gallery-img">
                     <img src="/assets/img/kb/kb5 cropped.jpg" alt="Kobe celebrates win with Shaq" />
                 </div>
                 <div class="gallery-img">
-                    <img src="/assets/img/kb/kb3 cropped.jpg" alt="Kobe posing" />
+                    <img src="/assets/img/kb/kb1 cropped.jpg" alt="Kobe biting his jersey" />
+                </div>
+                <div class="gallery-img">
+                    <img src="/assets/img/kb/kb2 cropped.jpeg" alt="Kobe with Ronaldinho Gaúcho" />
+                </div>
+                <div class="gallery-img">
+                    <img src="/assets/img/kb/kb3 cropped.jpg" alt="Kobe after win game" />
                 </div>
             </div>
         </div>
@@ -223,6 +225,53 @@
             </div>
         </div>
     </section>
+
+
+
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text">
+                <h2>Contact us</h2>
+                <p>Tell us about your experience on our Landing Page, so we can improve
+                    every single detail.
+
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="/assets/img/undraw_folder_files_re_2cbm.svg" alt="A man holding letters.">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contact us</legend>
+
+                    <div class="form-group">
+                        <label for="first-name">First name</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="lasst-name">Last name</label>
+                        <input type="text" id="last-name" name="last-name" placeholder="Your last name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="emial" id="email" name="email" placeholder="Your email">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Write to us"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit">Send Message </button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+    <footer class="white-bg">
+        <p><a href="https://www.instagram.com/nicaorec/" target="blank">Feito por Nicolas Ferreira</a></p>
+    </footer>
+
 
 
 

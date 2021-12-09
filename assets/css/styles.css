@@ -24,15 +24,87 @@
 .white-content {
     max-width: 64rem;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
 
 .white-content p {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
 }
 
+.contact-form {
+    grid-column: span 2;
+}
+
+.contact-form .form-grid{
+    border: none;
+    display: flex;
+    flex-flow: row wrap;
+    gap: var(--gap);
+}
+
+.form-group {
+    flex: 1 1 32rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.form-grid legend {
+    font-style: italic;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+}
+
+.form-group input,
+.form-group textarea {
+    border: none;
+    background: var(--white);
+    padding: 1.5rem 2rem;
+    width: 100%;
+    font-size: 3rem;
+    outline: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+box-shadow: 2px 2px 5px var(--lakers-gold);
+
+}
+
+
+.form-group button {
+    border: 0.5rem solid var(--white);
+    background: none;
+    color: var(--white);
+    padding: 1.5rem 2rem;
+    font-size: 3rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+    }
+
+    .form-group button:hover {
+        border: 0.5rem solid var(--primary-color);
+        background: var(--white);
+        color: var(--primary-color);
+    }
+
+    footer {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    footer p {
+        margin: 0;
+        padding: 3rem;    
+    }
+
+    footer p a:hover {
+        color: var(--primary-color);
+    }
 
 

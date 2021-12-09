@@ -1,6 +1,6 @@
 .main-bg {
     background-image: url(/assets/img/mainbg.svg);
-    background-size: contain;
+    background-size: cover;
     background-position: center center;
     color: var(--white);
 }
@@ -15,7 +15,8 @@
 .main-content {
     max-width: 120rem;
     margin: 0 auto;
-    padding: 5.2rem;
+    padding: 10rem var(--gap);
+
 }
 
 .section {
@@ -24,4 +25,9 @@
 
 .menu-spacing {
     height: 6.5rem;
+}
+
+body .full-width {
+    width: 100%;
+    flex: 1 1 100%;
 }
