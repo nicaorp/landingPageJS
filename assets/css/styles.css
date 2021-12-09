@@ -154,6 +154,15 @@ box-shadow: 2px 2px 5px var(--lakers-gold);
     }
 
     @media (max-width: 1080px) {
+
+        .main-content h2 {
+            font-size: 4rem;
+        }
+
+        .intro-text h2 {
+            font-size: 4rem;
+        }
+
         body .grid{
         grid-template-columns: 1fr;
         max-height: 80%;    
