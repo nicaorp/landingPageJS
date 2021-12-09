@@ -160,10 +160,12 @@ box-shadow: 2px 2px 5px var(--lakers-gold);
     } 
         section .grid h2 {
         margin-top: .5rem;
+        font-size: 2rem;
         }
 
         .sub-records{
-            font-size: 2rem;
+            font-size: 1rem;
+            padding-bottom: 6rem;
         }
     }
 
